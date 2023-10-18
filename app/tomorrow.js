@@ -12,12 +12,12 @@ const dummyData = [
   {
     time: '16.00',
     degrees: '29°',
-    animation: require('../assets/lottie/hujan.json')
+    animation: require('../assets/lottie/sore_berawan.json')
   },
   {
     time: '18.00',
     degrees: '26°',
-    animation: require('../assets/lottie/sore_berawan.json')
+    animation: require('../assets/lottie/hujan.json')
   },
   {
     time: '20.00',
@@ -74,7 +74,7 @@ const App = () => {
               className='p-3 mx-5'
             >
               <Text
-                className='text-[#F8F8F8] font-semibold text-sm'
+                className='text-[#72737B] font-semibold text-sm'
               >
                 Today
               </Text>
@@ -91,7 +91,7 @@ const App = () => {
               className='p-3 mx-5'
             >
               <Text
-                className='text-[#72737B] font-semibold text-sm'
+                className='text-[#F8F8F8] font-semibold text-sm'
               >
                 Tomorrow
               </Text>
@@ -128,7 +128,7 @@ const App = () => {
                 width: 250,
                 height: 250,
               }}
-              source={require('../assets/lottie/hujan.json')}
+              source={require('../assets/lottie/sore_berawan.json')}
             />
           </View>
 
@@ -139,7 +139,7 @@ const App = () => {
             <Text
               className='text-[#72737B] font-semibold'
             >
-              PARTLY RAINY
+              CLOUDY
             </Text>
           </View>
 
@@ -150,7 +150,7 @@ const App = () => {
             <Text
               className='text-[#F8F8F8] font-bold text-5xl'
             >
-              40°
+              90°
             </Text>
           </View>
         </View>
