@@ -1,11 +1,42 @@
 {
   "expo": {
+    "orientation": "portrait",
+    "icon": "./assets/image/icon.png",
     "scheme": "acme",
+    "name": "Weather App",
+    "splash": {
+      "image": "./assets/image/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/image/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "versionCode": 1,
+      "package": "com.zayyid123.alkalam"
+    },
     "web": {
       "bundler": "metro"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b31220d7-5ab0-4f9d-97e2-cc15059f398e"
+      }
+    },
+    "android": {
+      "package": "com.zayyid123.weatherapp"
+    }
   }
 }
